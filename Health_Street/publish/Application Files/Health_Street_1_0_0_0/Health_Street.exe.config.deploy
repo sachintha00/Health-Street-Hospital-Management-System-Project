@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="Health_Street.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+    </startup>
+<connectionStrings>
+    <add name="conString" connectionString="Data Source=Sachintha;Initial Catalog=GUI_Hospital_Management_System;Integrated Security=True"
+        providerName="System.Data.SqlClient" />
+    <add name="Health_Street.Properties.Settings.GUI_Hospital_Management_SystemConnectionString"
+        connectionString="Data Source=Sachintha;Initial Catalog=GUI_Hospital_Management_System;Integrated Security=True"
+        providerName="System.Data.SqlClient" />
+</connectionStrings>
+    <userSettings>
+        <Health_Street.Properties.Settings>
+            <setting name="Username" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Password" serializeAs="String">
+                <value />
+            </setting>
+        </Health_Street.Properties.Settings>
+    </userSettings>
+</configuration>
